@@ -1,0 +1,5 @@
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile
+.DEFAULT_GOAL := all
+all: foo

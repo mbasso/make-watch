@@ -1,0 +1,11 @@
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+# MAKECMDGOALS := target1
+.DEFAULT_GOAL := all
+
+all: foo
+
+# Not a target:
+foo:
+#  Implicit rule search has been done.

@@ -1,0 +1,6 @@
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile
+MAKECMDGOALS := foo
+foo: bar baz
+bar:

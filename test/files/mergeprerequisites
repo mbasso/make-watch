@@ -1,0 +1,8 @@
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile
+.DEFAULT_GOAL := target1
+target1: foo
+target1 target2: bar
+target2 target1: baz
+target2 target1 all: lorem

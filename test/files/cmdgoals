@@ -1,0 +1,5 @@
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+all: foo
